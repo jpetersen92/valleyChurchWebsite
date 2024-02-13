@@ -1,0 +1,28 @@
+.preloader {
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // background-color: $offWhite;
+    // color: $primary;
+    font-size: 6rem;
+    animation: logo 1s ease infinite alternate;
+    transition: opacity 1s ease;
+}
+
+.preloaderFinish {
+    opacity: 0;
+    pointer-events: none;
+}
+
+@keyframes logo{
+    from {
+        font-size: 6rem;
+    }
+    to {
+        font-size: 11rem;
+    }
+}

@@ -1,0 +1,164 @@
+
+// Desktop 1025px — 1200px
+
+// Small screens, laptops – 769px — 1024px
+@media(max-width: 940px) {
+    .location {
+        .locationContainer {
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0 0;
+        }
+        iframe {
+            width: 90%;
+        }
+    }
+    .timeLocation {
+        margin-bottom: 50px;
+    }
+
+    .giveContainer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px 0 0;
+    }
+
+    .giveText {
+        width: 100%;
+    }
+    .giveImg {
+        margin-top: 50px;
+        width: 100%;
+    }
+}
+
+// iPads, Tablets – 481px — 768px
+@media(max-width: 650px) {
+    .hamburger {
+        display: block;
+    }
+
+    .navMenu {
+        position: fixed;
+        padding: 8px 0;
+        top: -275px;
+        left: 0;
+        gap: 0;
+        flex-direction: column;
+        background-color: $primary;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        z-index: -1;
+    }
+    .navItem {
+        margin: 10px 0;
+        
+        a {
+            color: $secondary;
+        }
+    }
+    .socialIconContainer {
+        margin-right: 30px;
+    }
+
+    .about h2 {
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .timeLocation {
+        width: 100%;
+    }
+    .giveText {
+        padding: 0 30px;
+    }
+    .footer {
+        padding: 30px;
+    }
+}
+
+@media(max-width: 600px) {
+    section {
+        padding: 75px 0;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    h3 {
+        font-size: 1.2rem;
+    }
+    .about {
+        h1 {
+            font-size: 2rem;
+        }
+        h2 {
+            font-size: 1rem;
+        }
+    }
+    .location h2 {
+        margin-bottom: 40px;
+    }
+}
+
+@media(max-width: 530px) {
+    h2 {
+        margin-bottom: 0;
+    }
+    .giveContainer {
+        margin-top: 30px;
+    }
+    footer {
+        flex-direction: column;
+    }
+    .footerNav, .footerSocialContainer {
+        width: 100%;
+    }
+    .footerSocialContainer, .footerSocial, .footerNav nav , .footerNav nav ul {
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .footerNav h5 {
+        text-align: center;
+    }
+}
+// Mobile devices – 320px — 480px
+
+@media(max-width: 450px) {
+    .button {
+        font-size: 0.8rem;
+    }
+    h2 {
+        font-size: 1.4rem;
+    }
+    h3 {
+        font-size: 1rem;
+    }
+    .about {
+        h1 {
+            font-size: 1.6rem;
+        }
+        h2 {
+            font-size: 0.8rem;
+        }
+    }
+    .location {
+        h4 {
+            font-size: 0.8rem;
+        }
+        li {
+            font-size: 0.8rem;
+        }
+    }
+    .give {
+        h3 {
+            font-size: 1rem;
+        }
+    }
+
+}

@@ -1,0 +1,42 @@
+.location {
+    background-color: $primary;
+    .locationContainer {
+        display: flex;
+        justify-content: center;
+        margin: 50px;
+        
+
+    }
+}
+
+.timeLocation {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+    h3 {
+        margin-bottom: 10px;
+    }
+}
+
+.locationText, .timeText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.locationText {
+    h3 {
+        margin-bottom: 20px;
+    }
+    li {
+        margin-bottom: 5px;
+    }
+}
+
+.timeText {
+    margin-bottom: 30px;
+}
